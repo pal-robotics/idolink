@@ -1,0 +1,39 @@
+
+# List of anchors with known position
+anchor_list:
+
+  # Number of anchor in the list
+  N: 4
+ 
+  # Anchor number 1
+  a0:
+    id: "0xdeca0100100007a0"
+    frame_id: "map"    
+    x: -5.43
+    y: -18.31
+    z:  1.54
+   
+  # Anchor number 2
+  a1:
+    id: "0xdeca010010000a60"
+    frame_id: "map"
+    x:  -5.32
+    y:  -5.46
+    z:  1.40
+
+  # Anchor number 3
+  a2:
+    id: "0xdeca010010000a5e"
+    frame_id: "map"
+    x: 3.39
+    y: -7.98
+    z:  1.56
+
+  # Anchor number 3
+  a3:
+    id: "0xdeca010010000a5f"
+    frame_id: "map"
+    x: -10.66
+    y: -1.74
+    z:  1.63
+

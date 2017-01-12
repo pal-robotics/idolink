@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>idolink</name>
+  
+  <version>0.1.0</version>
+  
+  <description>This package provides a driver to interface with the Idolink UWB RTLS. 
+  It allows reading the distance to the different anchors installed in the environment 
+  and publishing the information using the range_msgs::P2PRange message.</description>
+
+  <maintainer email="procopio.stein@pal-robotics.com">Procopio Stein</maintainer>
+
+  <author>Sergio Ramos</author>
+  <url></url>
+  
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>range_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>range_msgs</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
