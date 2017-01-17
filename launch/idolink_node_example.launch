@@ -1,6 +1,6 @@
 <launch>
 
-  <node pkg="idolink" type="idolink_node" name="idolink_node" output="screen" >
+  <node pkg="idolink_node" type="idolink_node" name="idolink_node" output="screen" >
     <param name="device" value = "/dev/ttyUSB0"/>		# Serial device id
     <param name="frame_id" value = "map"/>				# Frame id used in range messages
     <param name="protocol" value = "bin"/>				# Serial protocol to be used: "bin" or "char" 
